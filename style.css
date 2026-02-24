@@ -409,3 +409,38 @@ textarea:focus {
     padding: 56px 0;
   }
 }
+
+select {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--hairline);
+  background: rgba(11, 12, 15, 0.65);
+  color: var(--text);
+  padding: 12px 12px;
+  font: inherit;
+}
+
+.fieldset {
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px 0 14px;
+}
+
+.fieldset legend {
+  color: var(--muted);
+  padding: 0 6px;
+  font-size: 0.95rem;
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--muted);
+  margin: 8px 0;
+}
+
+.check input {
+  margin-top: 3px;
+}
