@@ -91,6 +91,14 @@ a {
   font-size: 0.9rem;
 }
 
+.hidden {
+  position: absolute;
+  left: -9999px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 .site-header {
   position: sticky;
   top: 0;
