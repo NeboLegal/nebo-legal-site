@@ -200,23 +200,26 @@
               aria-label="Contact form"
             >
               <input type="hidden" name="form-name" value="contact" />
-              <label class="hidden">
-                Don&#39;t fill this out if you&#39;re human:
-                <input name="bot-field" />
-              </label>
+              <p class="hidden">
+                <label>
+                  Don&#39;t fill this out if you&#39;re human:
+                  <input name="bot-field" />
+                </label>
+              </p>
+
               <label>
                 Name
-                <input type="text" name="name" autocomplete="name" />
+                <input type="text" name="name" autocomplete="name" required />
               </label>
 
               <label>
                 Email
-                <input type="email" name="email" autocomplete="email" />
+                <input type="email" name="email" autocomplete="email" required />
               </label>
 
               <label>
                 Message
-                <textarea name="message" rows="5"></textarea>
+                <textarea name="message" rows="5" required></textarea>
               </label>
 
               <button class="btn" type="submit">Send</button>
