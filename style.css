@@ -97,11 +97,12 @@ a {
   max-width: 60ch;
   color: var(--muted);
   font-size: 1.06rem;
+  line-height: 1.56;
 }
 
 .lead-center-wrap {
   max-width: 760px;
-  margin: 28px auto 32px;
+  margin: 18px auto 30px;
   text-align: center;
 }
 
@@ -580,6 +581,14 @@ textarea:focus {
 
   .section {
     padding: 76px 0;
+  }
+
+  .lead {
+    line-height: 1.6;
+  }
+
+  .lead-center-wrap {
+    margin: 16px auto 24px;
   }
 
   .section-head {
