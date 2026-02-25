@@ -516,6 +516,21 @@ textarea:focus {
   padding: 8px 28px 0;
 }
 
+.attorney-advertising {
+  width: min(1180px, 92vw);
+  margin: 0 auto;
+  padding: 8px 20px 0;
+}
+
+.attorney-advertising .footer-fineprint {
+  max-width: 100%;
+  margin-top: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
 .legal-content {
   max-width: 760px;
 }
@@ -585,6 +600,17 @@ textarea:focus {
   .panel li,
   .hero-card p,
   .hero-card li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .attorney-advertising {
+    width: min(100%, 92vw);
+    padding: 8px 18px 0;
+  }
+
+  .attorney-advertising .footer-fineprint {
     text-align: left;
   }
 }
