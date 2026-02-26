@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,326 +6,454 @@
     <title>Nebo Legal, P.C.</title>
     <meta
       name="description"
-      content=Strategic legal counsel for founders building venture-backed and frontier technology companies.
+      content="Your startup lawyer in San Francisco. Fundraising, M&amp;A, governance, and fractional GC for venture-backed founders."
     />
+    <meta property="og:title" content="Nebo Legal — Startup Law, Done Right" />
+    <meta property="og:description" content="Your startup lawyer in San Francisco. Fundraising, M&amp;A, governance, and fractional GC for venture-backed founders." />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="#top" aria-label="Nebo Legal home">
-          <span class="brand-mark">Nebo</span><span class="brand-sub">Legal</span>
-        </a>
+    <!-- Navigation -->
+    <header class="site-header" id="site-header">
+      <div class="container">
+        <div class="nav-wrap">
+          <a class="brand" href="#top" aria-label="Nebo Legal home">
+            <span class="brand-mark">Nebo</span><span class="brand-sub">Legal</span>
+          </a>
 
-        <nav class="nav-links" aria-label="Primary navigation">
-          <a href="#services">Services</a>
-          <a href="#approach">Approach</a>
-          <a href="#about-us">About Us</a>
-          <a href="#contact" class="btn btn-small">Contact</a>
-        </nav>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="#services">Services</a>
+            <a href="#approach">Approach</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn btn-small">Contact</a>
+          </nav>
+
+          <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </div>
     </header>
 
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#approach" class="mobile-nav-link">Approach</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
     <main id="top">
-      <section class="section hero">
-        <div class="container hero-grid">
-          <div>
-            <p class="kicker">Fractional General Counsel &bull; Venture Capital &bull; M&amp;A</p>
-            <h1 class="h1">Strategic legal counsel for founders building venture-backed and frontier technology companies.</h1>
-            <p class="lead hero-headline-copy">
-              From formation to exit, Nebo Legal has your back.
-            </p>
-            <div class="lead-center-wrap">
-              <p class="lead">
-                Based in San Francisco and Silicon Valley, Nebo Legal, P.C. supports startups and investors
-                with crisp structure, fast execution, and operator-level judgment-without big-firm friction.
-              </p>
-            </div>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="container">
+            <div class="hero-grid">
+              <div>
+                <span class="kicker kicker--light">San Francisco &bull; Startup Law &bull; Venture &amp; M&amp;A</span>
+                <h1>Your lawyer should move as fast as you do.</h1>
+                <p class="lead" style="color: var(--text-on-dark);">
+                  50+ startups advised. Am Law 50 trained. Nebo Legal is a boutique firm
+                  built for founders raising capital, closing deals, and scaling&mdash;without
+                  the overhead of a big firm.
+                </p>
 
-            <div class="cta-row">
-              <a class="btn" href="https://calendly.com/nebo-legal" target="_blank" rel="noopener">Book a call</a>
-              <a class="btn btn-ghost" href="#services">View services</a>
-            </div>
+                <div class="hero-cta">
+                  <a class="btn btn-primary" href="https://calendly.com/nebo-legal" target="_blank" rel="noopener">Book a Call</a>
+                  <a class="btn btn-outline" href="#services">View Services</a>
+                </div>
 
-            <div class="micro-links">
-              <a href="#contact">Email</a>
-              <span class="dot">&bull;</span>
-              <a href="https://calendly.com/nebo-legal" target="_blank" rel="noopener">Calendly</a>
-              <span class="dot">&bull;</span>
-              <a href="https://www.linkedin.com/in/alexanderravski/" target="_blank" rel="noopener">LinkedIn</a>
-            </div>
-          </div>
+                <div class="hero-micro">
+                  <a href="#contact">Email</a>
+                  <a href="https://calendly.com/nebo-legal" target="_blank" rel="noopener">Calendly</a>
+                  <a href="https://www.linkedin.com/in/alexanderravski/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+              </div>
 
-          <div class="hero-card" role="note" aria-label="Quick facts">
-            <div class="hero-card-inner">
-              <h2 class="h3">At a glance</h2>
-              <ul class="checklist">
-                <li>Founder-friendly counsel, investor-ready docs</li>
-                <li>Fast turnaround, clear guidance, clean drafts</li>
-                <li>Pragmatic, startup-aligned pricing</li>
-              </ul>
-
-              <div class="pill-row" aria-label="Focus areas">
-                <span class="pill">Venture Financing</span>
-                <span class="pill">M&amp;A</span>
-                <span class="pill">Commercial</span>
-                <span class="pill">Equity &amp; Incentives</span>
-                <span class="pill">Venture Capital</span>
-                <span class="pill">Corporate Governance</span>
-                <span class="pill">Cap table</span>
-                <span class="pill">Data room</span>
+              <div class="hero-card">
+                <h2>Why Founders Choose Nebo</h2>
+                <ul>
+                  <li>Direct access to a senior attorney&mdash;no hand-offs</li>
+                  <li>Docs that close rounds, not collect dust</li>
+                  <li>Flat and capped fees&mdash;no billing surprises</li>
+                </ul>
+                <div class="pill-row">
+                  <span class="pill">AI &amp; ML</span>
+                  <span class="pill">Defense Tech</span>
+                  <span class="pill">Biotech</span>
+                  <span class="pill">Fintech</span>
+                  <span class="pill">SaaS</span>
+                  <span class="pill">Hardware</span>
+                  <span class="pill">Clean Energy</span>
+                  <span class="pill">Cybersecurity</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="services" class="section section-alt">
+      <!-- Curved Divider: Hero -> Services -->
+      <div class="curve-divider" style="background: var(--navy);">
+        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 80L1440 80L1440 0C1440 0 1080 80 720 80C360 80 0 0 0 0L0 80Z" fill="var(--bg-alt)"/>
+        </svg>
+      </div>
+
+      <!-- Services -->
+      <section id="services" class="section section--alt">
         <div class="container">
-          <div class="section-head">
-            <h2 class="h2">Services</h2>
-            <p class="muted">
-              Legal support for founders who care about speed, leverage, and clean outcomes.
-            </p>
+          <div class="section-header reveal">
+            <span class="kicker">What We Do</span>
+            <h2>Built for Every Stage of Your Company</h2>
+            <p class="lead">From your first fundraise to your exit&mdash;one attorney who knows the whole picture.</p>
           </div>
 
-          <div class="grid cards">
-            <article class="card">
-              <h3 class="h3">Venture &amp; Fundraising</h3>
-              <p class="muted">
-                SAFEs through priced rounds, side letters, investor diligence, and cap table cleanup that keeps momentum
-                while protecting founder leverage.
-              </p>
+          <div class="services-grid stagger">
+            <article class="service-card reveal" style="--i:0">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+              </div>
+              <h3 class="h3">Fundraising</h3>
+              <p>SAFEs, priced rounds, side letters, and cap table cleanup. You keep your leverage&mdash;and your momentum.</p>
             </article>
 
-            <article class="card">
-              <h3 class="h3">M&amp;A</h3>
-              <p class="muted">
-                LOIs to close: asset and stock deals, diligence, and negotiations with pragmatic risk, speed,
-                and clear exit paths.
-              </p>
+            <article class="service-card reveal" style="--i:1">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="h3">M&amp;A &amp; Exits</h3>
+              <p>Acquisitions, divestitures, spin-offs, and joint ventures. Alex handles both sides of the table across tech, biotech, and beyond.</p>
             </article>
 
-            <article class="card">
-              <h3 class="h3">Structure &amp; Governance</h3>
-              <p class="muted">
-                Clean Delaware C-Corps, founder equity, board and voting structure, and governance that scales.
-              </p>
+            <article class="service-card reveal" style="--i:2">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+              </div>
+              <h3 class="h3">Formation &amp; Structure</h3>
+              <p>Delaware C-Corp setup, founder equity splits, board structure, and governance that won't break at Series A.</p>
             </article>
 
-            <article class="card">
-              <h3 class="h3">Founder Dynamics &amp; GC Support</h3>
-              <p class="muted">
-                Fractional GC coverage, founder resets, and steady guidance when the stakes rise.
-              </p>
+            <article class="service-card reveal" style="--i:3">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="h3">Fractional General Counsel</h3>
+              <p>Ongoing legal coverage without a full-time hire. Board prep, corporate secretary duties, compliance, and a calm voice when things get complicated.</p>
+            </article>
+
+            <article class="service-card reveal" style="--i:4">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              </div>
+              <h3 class="h3">Contracts &amp; Commercial</h3>
+              <p>SaaS agreements, vendor contracts, terms of service, privacy policies, and supply chain deals&mdash;drafted clean and ready to sign.</p>
+            </article>
+
+            <article class="service-card reveal" style="--i:5">
+              <div class="service-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h3 class="h3">Hiring &amp; Equity</h3>
+              <p>Employee offers, contractor agreements, stock option plans, and advisor grants&mdash;structured right so you attract talent without creating problems.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="expect" class="section">
-        <div class="container split">
-          <div>
-            <h2 class="h2">What to Expect</h2>
-            <p class="lead">
-              Practical counsel designed for how founders actually operate. You get direct answers,
-              crisp tradeoffs, and documents that survive diligence without slowing momentum.
-            </p>
-            <p class="muted">
-              The goal is not more legal work. It is fewer surprises, faster decisions, and a structure
-              that investors can trust.
-            </p>
-          </div>
-          <div class="panel">
-            <h3 class="h3">Credibility without friction</h3>
-            <p class="muted">
-              Every engagement is built around action. Clear scopes, fast iteration, and senior judgment
-              so founders can focus on product, hiring, and growth.
-            </p>
-            <ul class="bullets">
-              <li>Decisions in days, not weeks</li>
-              <li>Investor-ready drafting and negotiation</li>
-              <li>Operate like a partner, not a vendor</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="pricing" class="section section-alt">
-        <div class="container split">
-          <div>
-            <h2 class="h2">Pricing</h2>
-            <p class="lead">
-              Founder-friendly pricing with clear expectations and zero billing theater.
-            </p>
-          </div>
-          <div class="panel">
-            <p class="muted">
-              Matters are scoped up front, with capped or flat fees when appropriate. Billing stays pragmatic,
-              aligned to startup needs, and focused on outcomes-not timesheets.
-            </p>
-            <p class="muted">
-              If a project changes, the scope changes with it so there are no surprises.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="approach" class="section">
-        <div class="container split">
-          <div>
-            <h2 class="h2">Approach</h2>
-            <p class="lead">
-              Clear judgment, tight drafting, and fast iteration-built for operator speed and investor scrutiny.
-            </p>
-            <p class="muted">
-              You will always know where the risk sits, what the tradeoffs are, and how to move forward.
-            </p>
-          </div>
-          <div class="panel">
-            <h3 class="h3">How we work</h3>
-            <p class="muted">
-              We align on outcomes and risk posture, then move fast with clean drafts and tight feedback loops.
-              You get senior, founder-native judgment without big-firm friction.
-            </p>
-            <ul class="bullets">
-              <li>Scoped to the decision, not the drama</li>
-              <li>Fast first pass, faster revisions</li>
-              <li>Negotiation with leverage and clarity</li>
-              <li>Docs you can reuse and scale</li>
-            </ul>
-            <p class="muted">
-              After years in legal and business, Alex draws on a trusted network of specialists
-              when needed (tax, IP, employment, and more), without the overhead of a big firm.
-            </p>
-            <p class="muted">
-              He reads, watches, and shows up for the startup ecosystem-events, pitch nights, and hackathons-
-              so founders have an advisor who understands the pace and can be relied on when it counts.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="about-us" class="section section-alt">
-        <div class="container about-grid">
-          <div class="panel">
-            <h2 class="h2">About Us</h2>
-            <p class="muted">
-              Alex Ravski is a venture capital and M&amp;A attorney and the founder of Nebo Legal, P.C., a Silicon Valley
-              boutique advising startups and investors on corporate and financing matters. He serves as fractional General
-              Counsel to early-stage and growth companies, guiding venture financings, acquisitions, governance structuring,
-              and complex founder dynamics.
-            </p>
-            <p class="muted">
-              His background includes experience at an Am Law 50 firm, as well as roles in compliance and investment banking.
-              He has advised dozens of startups across legal and operational matters, and serves on the board of a 501(c)(3).
-            </p>
-            <p class="muted">
-              An entrepreneur at heart, Alex works closely with founders to build clean, scalable structures-aligning legal
-              architecture with capital strategy, long-term ownership design, and investor readiness.
-            </p>
-            <div class="fit-block">
-              <h3 class="h3">Good fit for</h3>
-              <p class="muted">
-                Founders and investors who want senior counsel without the overhead.
+      <!-- What to Expect -->
+      <section class="section">
+        <div class="container">
+          <div class="split reveal">
+            <div>
+              <span class="kicker">Working Together</span>
+              <h2>No Runaround. No Surprises.</h2>
+              <p class="lead" style="margin-top: 20px;">
+                You talk directly to Alex. He learns your business once and stays in your corner
+                through every raise, hire, and hard call.
+              </p>
+              <p class="muted" style="margin-top: 16px; line-height: 1.8;">
+                The goal isn't more legal work. It's fewer surprises, faster decisions, and a
+                structure investors trust on first look.
+              </p>
+            </div>
+            <div class="panel">
+              <h3 class="h3">How It Actually Works</h3>
+              <p class="muted" style="line-height: 1.8;">
+                You tell Alex what you need. He scopes it, gives you a clear price, and delivers
+                clean drafts&mdash;usually within days. No associates, no hand-offs, no mystery invoices.
               </p>
               <ul class="bullets">
-                <li>Pre-seed through Series B (and selective later stages)</li>
-                <li>Founder-led teams building ambitious or regulated products</li>
-                <li>Investors who value clean, founder-friendly process</li>
-                <li>Complex ownership, cross-border, or multi-stakeholder setups</li>
+                <li>Answers in hours, drafts in days</li>
+                <li>Docs that pass investor diligence</li>
+                <li>A partner in your corner, not a billing machine</li>
               </ul>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="about-photo">
-            <img src="assets/alex.png" alt="Alex Ravski, founder of Nebo Legal" loading="lazy" />
+      <!-- Testimonials -->
+      <section class="section section--alt">
+        <div class="container">
+          <div class="section-header section-header--center reveal">
+            <span class="kicker">Client Words</span>
+            <h2>What Founders Say</h2>
+          </div>
+          <div class="testimonials-grid stagger">
+            <blockquote class="testimonial reveal" style="--i:0">
+              <p>&ldquo;Alex is a trusted counselor. He tells it like it is, even if it isn't what you want to hear.&rdquo;</p>
+            </blockquote>
+            <blockquote class="testimonial reveal" style="--i:1">
+              <p>&ldquo;I can count on Alex to be in my corner, no matter what.&rdquo;</p>
+            </blockquote>
+            <blockquote class="testimonial reveal" style="--i:2">
+              <p>&ldquo;He makes himself available 24/7. His professional network is like no other.&rdquo;</p>
+            </blockquote>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="section">
-        <div class="container contact-grid">
-          <div>
-            <h2 class="h2">Contact</h2>
-            <p class="muted contact-subtext">
-              Tell us where you are, what you are building, and what decision is in front of you.
-              We will respond quickly and keep things straightforward.
-            </p>
-            <img class="contact-logo" src="assets/logo.jpg" alt="Nebo Legal logo" loading="lazy" />
+      <!-- Pricing -->
+      <section class="section">
+        <div class="container">
+          <div class="split reveal">
+            <div>
+              <span class="kicker">Pricing</span>
+              <h2>You'll Know the Cost Before You Start</h2>
+              <p class="lead" style="margin-top: 20px;">
+                Flat fees and capped engagements. You get a clear scope and a clear price&mdash;before any work begins.
+              </p>
+            </div>
+            <div class="panel">
+              <p class="muted" style="line-height: 1.8;">
+                No hourly billing surprises. No vague estimates that balloon. Every project is scoped
+                up front so you can budget with confidence and focus on building.
+              </p>
+              <p class="muted" style="margin-top: 16px; line-height: 1.8;">
+                If the scope changes, the price is updated before the work continues. Simple as that.
+              </p>
+            </div>
           </div>
-          <div class="panel">
-            <form
-              class="form"
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-              action="/thank-you.html"
-              aria-label="Contact form"
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              <p class="hidden">
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section id="approach" class="section section--dark">
+        <div class="container">
+          <div class="split reveal">
+            <div>
+              <span class="kicker kicker--light">Approach</span>
+              <h2>Trained at Foley &amp; Lardner. Built for Founders.</h2>
+              <p class="lead" style="margin-top: 20px; color: var(--text-on-dark);">
+                Alex cut his teeth at Foley &amp; Lardner, an Am Law 50 firm, plus stints in
+                investment banking and compliance. He left big law to give founders the same
+                caliber of work&mdash;without the layers, the delays, or the giant invoices.
+              </p>
+              <p style="margin-top: 16px; color: var(--text-on-dark); line-height: 1.8;">
+                You'll always know where you stand, what the risks are, and what to do next.
+              </p>
+            </div>
+            <div class="panel panel--dark">
+              <h3 class="h3">What That Looks Like</h3>
+              <p style="color: var(--text-on-dark); line-height: 1.8;">
+                Quick calls, clean drafts, fast turnarounds. Alex stays plugged into your business
+                so he can give real advice&mdash;not generic legal boilerplate.
+              </p>
+              <ul class="bullets">
+                <li>Focused on your actual decision, not billable busywork</li>
+                <li>First drafts fast, revisions faster</li>
+                <li>Negotiation that protects you without killing deals</li>
+                <li>Templates and docs you can reuse as you scale</li>
+              </ul>
+              <p style="margin-top: 20px; color: var(--text-on-dark); line-height: 1.8; font-size: 0.95rem;">
+                When you need a specialist (tax, IP, employment), Alex taps a trusted network&mdash;so
+                you get expert coverage without hiring a second firm.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Curved Divider: Approach -> About -->
+      <div class="curve-divider" style="background: var(--navy);">
+        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0 80L1440 80L1440 0C1440 0 1080 80 720 80C360 80 0 0 0 0L0 80Z" fill="var(--bg)"/>
+        </svg>
+      </div>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="about-grid reveal">
+            <div class="about-content">
+              <span class="kicker">Meet Alex</span>
+              <h2>50+ Startups. Every Stage. Every Sector.</h2>
+              <p style="margin-top: 20px;">
+                Alex Ravski is a San Francisco Bay Area business attorney who's passionate about
+                founders using business as a tool for impact. He started Nebo Legal so entrepreneurs
+                could get elite legal work without the big-firm price tag or runaround.
+              </p>
+              <p>
+                Before launching the firm, Alex worked at Foley &amp; Lardner (Am Law 50) and held
+                roles in investment banking, securities compliance, and startup operations. He's
+                advised 50+ startups across AI, defense tech, biotech, fintech, SaaS, clean energy,
+                and more&mdash;and sits on the board of a 501(c)(3).
+              </p>
+              <p>
+                As an entrepreneur himself, Alex doesn't just draft documents. He helps founders
+                choose the right structure, find the right advisors, protect their IP, build the
+                right team, plan for hypergrowth, and think through exit strategies.
+              </p>
+
+              <div class="fit-block">
+                <h3 class="h3">Best Fit For</h3>
+                <p class="muted" style="margin-top: 8px;">
+                  Founders and investors who want a real lawyer, not a legal department.
+                </p>
+                <ul class="bullets">
+                  <li>Pre-seed through Series A (and selective later stages)</li>
+                  <li>AI, tech, hardware, defense tech, and biotech founders</li>
+                  <li>Angels and VCs who want clean, founder-friendly deals</li>
+                  <li>Nonprofits and executives needing corporate counsel</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="about-photo-wrap">
+              <img src="assets/alex.png" alt="Alex Ravski, founder of Nebo Legal" loading="lazy" />
+              <div class="about-photo-accent"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section--alt">
+        <div class="container">
+          <div class="contact-grid reveal">
+            <div class="contact-info">
+              <span class="kicker">Let's Talk</span>
+              <h2>Ready to Get Started?</h2>
+              <p class="lead">
+                Tell Alex what you're building and what's on your plate.
+                He'll get back to you quickly with a straight answer.
+              </p>
+              <img class="contact-logo" src="assets/logo.jpg" alt="Nebo Legal logo" loading="lazy" />
+            </div>
+
+            <div class="form-card">
+              <form
+                class="form"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                action="/thank-you.html"
+                aria-label="Contact form"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <p class="hidden">
+                  <label>
+                    Don&#39;t fill this out if you&#39;re human:
+                    <input name="bot-field" />
+                  </label>
+                </p>
+
                 <label>
-                  Don&#39;t fill this out if you&#39;re human:
-                  <input name="bot-field" />
+                  Name
+                  <input type="text" name="name" autocomplete="name" required />
                 </label>
-              </p>
 
-              <label>
-                Name
-                <input type="text" name="name" autocomplete="name" required />
-              </label>
+                <label>
+                  Email
+                  <input type="email" name="email" autocomplete="email" required />
+                </label>
 
-              <label>
-                Email
-                <input type="email" name="email" autocomplete="email" required />
-              </label>
+                <label>
+                  Message
+                  <textarea name="message" rows="5" required></textarea>
+                </label>
 
-              <label>
-                Message
-                <textarea name="message" rows="5" required></textarea>
-              </label>
+                <button class="btn btn-primary" type="submit">Send Message</button>
 
-              <button class="btn" type="submit">Send</button>
-
-              <p class="fineprint">
-                By submitting, you agree to receive communications from Nebo Legal.
-              </p>
-            </form>
+                <p class="fineprint">
+                  By submitting, you agree to receive communications from Nebo Legal.
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </section>
-
-      <footer class="footer">
-        <div class="container footer-row">
-          <div class="muted">&copy; <span id="year"></span> Nebo Legal, P.C.</div>
-          <div class="muted footer-links">
-            <a href="#top">Top</a>
-            <span class="dot">&bull;</span>
-            <a href="#services">Services</a>
-            <span class="dot">&bull;</span>
-            <a href="#contact">Contact</a>
-            <span class="dot">&bull;</span>
-            <a href="/terms.html">Terms of Service</a>
-            <span class="dot">&bull;</span>
-            <a href="/privacy.html">Privacy Policy</a>
-          </div>
-        </div>
-        <div class="footer-fineprint-wrap attorney-advertising">
-          <p class="fineprint footer-fineprint">
-            Attorney Advertising. This website provides general information only and does not constitute legal advice.
-            Your access to or use of the Website or any portion thereof, including but not limited to any email links or other contact information listed for Nebo Legal attorneys, does not create an attorney-client relationship between you and Nebo Legal. Your transmission or communication of any information, whatever its nature, does not create an attorney-client relationship between you and Nebo Legal and does not invoke any attorney-client privilege. Nebo Legal only enters into attorney-client relationships after undertaking certain procedures unrelated to the Website, in accordance with its own policies and the rules and regulations of the State Bar of California.
-          </p>
-        </div>
-      </footer>
     </main>
 
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">Nebo <span style="opacity:0.5;font-weight:400">Legal</span></div>
+          <div class="footer-links">
+            <a href="#top">Top</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/privacy.html">Privacy</a>
+          </div>
+        </div>
+        <p class="footer-legal">
+          &copy; <span id="year"></span> Nebo Legal, P.C. &mdash;
+          Attorney Advertising. This website provides general information only and does not constitute legal advice.
+          Your access to or use of the Website or any portion thereof, including but not limited to any email links or other contact information listed for Nebo Legal attorneys, does not create an attorney-client relationship between you and Nebo Legal. Your transmission or communication of any information, whatever its nature, does not create an attorney-client relationship between you and Nebo Legal and does not invoke any attorney-client privilege. Nebo Legal only enters into attorney-client relationships after undertaking certain procedures unrelated to the Website, in accordance with its own policies and the rules and regulations of the State Bar of California.
+        </p>
+      </div>
+    </footer>
+
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
+      // Year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Sticky header scroll effect
+      const header = document.getElementById('site-header');
+      const onScroll = () => {
+        header.classList.toggle('scrolled', window.scrollY > 40);
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      // Mobile menu
+      const hamburger = document.getElementById('hamburger');
+      const mobileNav = document.getElementById('mobile-nav');
+      hamburger.addEventListener('click', () => {
+        const open = mobileNav.classList.toggle('open');
+        hamburger.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', open);
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('open');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+
+      // Scroll reveal
+      const reveals = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(el => observer.observe(el));
     </script>
   </body>
 </html>
-
-
