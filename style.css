@@ -937,6 +937,8 @@ h3, .h3 {
   background: var(--teal);
 }
 .article-content strong { color: var(--text); }
+.article-content a { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+.article-content a:hover { color: var(--teal-light); }
 .article-cta {
   margin: 48px 0;
   padding: 36px 32px;
