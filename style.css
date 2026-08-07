@@ -867,7 +867,7 @@ h3, .h3 {
 
 /* --- Blog index --- */
 .blog-hero { padding-top: 180px; }
-.blog-hero .lead { max-width: 640px; margin-top: 18px; }
+.blog-hero .lead { max-width: none; margin-top: 18px; }
 
 .blog-grid {
   display: grid;
